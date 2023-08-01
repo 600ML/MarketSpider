@@ -1,4 +1,4 @@
-import json
+﻿import json
 import csv
 import sys
 import time
@@ -53,6 +53,11 @@ keyword = input('输入搜索关键词:')
 gui_text['background'] = '#ffffff'
 gui_text['text'] = '正在启动浏览器'
 options = webdriver.ChromeOptions()
+options.add_argument('--no-sandbox')
+options.add_argument('--disable-dev-shm-usage')
+options.add_argument('--headless')
+options.add_argument('blink-settings=imagesEnabled=false')
+options.add_argument('--disable-gpu')
 options.add_argument("--disable-blink-features=AutomationControlled")
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
 browser = webdriver.Chrome(options=options)

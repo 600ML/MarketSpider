@@ -1,0 +1,28 @@
+用114.0.5735.90版本，其他版本一言难尽
+
+1.google-chrome
+	a.rpm包下载地址:https://mirrors.aliyun.com/google-chrome/google-chrome/
+	b.安装alien
+		sudo add-apt-repository universe
+		sudo apt update && sudo apt install alien
+	b.用alien安装rpm包
+		alien -i package_name.rpm
+
+2.chromedriver
+	a.下载地址：https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+	b.解压后，将文件拷贝到/usr/sbin
+
+用115.0.5790.102版本，其他版本一言难尽
+
+1.google-chrome
+	a.rpm包下载地址:https://mirrors.aliyun.com/google-chrome/google-chrome/
+	b.安装alien
+		sudo add-apt-repository universe
+		sudo apt update && sudo apt install alien
+	b.用alien安装rpm包
+		alien -i package_name.rpm
+
+2.chromedriver
+	a.下载地址：https://chromedriver.storage.googleapis.com/115.0.5790.102/chromedriver_linux64.zip
+	b.解压后，将文件拷贝到/usr/sbin
+
